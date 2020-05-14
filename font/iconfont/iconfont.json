@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "1239336",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
       "icon_id": "1110406",
       "name": "箭头 左 中",
       "font_class": "jiantou4",

@@ -1,10 +1,14 @@
 @charset "UTF-8";
 @import "sassConfig";
 
-
+#slide-wrap{
+    position: relative;
+    overflow: hidden;
+}
 .slide-content{
     position: relative;
-   
+    left: 0;
+    @include webkit(transition,all 1s ease 0s);
     li{
         float: left;
     }

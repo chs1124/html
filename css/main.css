@@ -1,5 +1,15 @@
+#slide-wrap {
+  position: relative;
+  overflow: hidden; }
+
 .slide-content {
-  position: relative; }
+  position: relative;
+  left: 0;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  transition: all 1s ease 0s; }
   .slide-content li {
     float: left; }
 
@@ -36,3 +46,5 @@
 
 .slide-next {
   right: 20px; }
+
+/*# sourceMappingURL=main.css.map */
