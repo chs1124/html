@@ -101,29 +101,17 @@
                 care for teeth to creat a batter future
             </p>
         </div>
-        
+
         <div class="list-info">
-            <div class="loading-wait">
+            
+            <div id="infoListWrap">
+                <div class="loading-wait" id="loading-wait">
                 加载中
-                <div class="loading-icon"><li class="iconfont icon-jiazai"></li></div> 
+                <div class="loading-icon">
+                    <li class="iconfont icon-jiazai"></li>
+                </div>
             </div>
-            <ul class="clearfix">
-                <figure>
-                    <img src="./images/mainimg01.jpg" alt="郎朗口腔">
-                    <figcaption>郎朗口腔</figcaption>
-                    <p>诊所内设有典雅舒适、风格各异的独立诊疗室，如奇趣可爱的儿童诊室、适应女性需求的Hello Kitty..</p>
-                </figure>
-                <figure>
-                    <img src="./images/mainimg01.jpg" alt="郎朗口腔">
-                    <figcaption>郎朗口腔</figcaption>
-                    <p>诊所内设有典雅舒适、风格各异的独立诊疗室，如奇趣可爱的儿童诊室、适应女性需求的Hello Kitty..</p>
-                </figure>
-                <figure>
-                    <img src="./images/mainimg01.jpg" alt="郎朗口腔">
-                    <figcaption>郎朗口腔</figcaption>
-                    <p>诊所内设有典雅舒适、风格各异的独立诊疗室，如奇趣可爱的儿童诊室、适应女性需求的Hello Kitty..</p>
-                </figure>
-            </ul>
+        </div>
             <a href="" class="more-link">查看更多</a>
         </div>
     </div>
@@ -203,6 +191,47 @@
     </footer>
 
     <script src="js/banner.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script>
+        $.ajax({
+            url: "./data/index.php", //请求的url地址
+            dataType: "json", //返回格式为json
+            async: false, //请求是否异步，默认为异步，这也是ajax重要特性
+            cache: false, // 是否读取缓存
+            data: {
+                categoryId: 123456
+            }, //参数值
+            type: "POST", //请求方式
+            beforeSend: function() {
+                //请求前的处理
+            },
+            success: function(req) {
+                //请求成功时处理
+
+                let strDom = `<ul class="clearfix">`
+                req.data.forEach(item => {
+                    console.log(item)
+                    strDom += `<figure>
+                    <img src="${item.imgUrl}" alt="${item.title}">
+                    <figcaption>${item.title}</figcaption>
+                    <p>${item.dec}</p>
+                </figure>`
+                });
+                    strDom+=`</ul>`;
+                    const tempDiv=document.getElementById("infoListWrap");
+                    
+                    tempDiv.innerHTML=strDom;
+                   
+
+            },
+            complete: function() {
+                //请求完成的处理
+            },
+            error: function() {
+                //请求出错处理
+            }
+        });
+    </script>
 </body>
 
 </html>
