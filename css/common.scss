@@ -313,6 +313,27 @@ body > footer {
     }
 }
 
+//主体内容标题
+.main-column{
+    text-align: center;
+    padding: 89px 0 70px 0;
+    h4{
+        font-size: 26px;
+        font-weight: normal;
+    }
+    p{
+        margin-top: 12px;
+        color: $text-gray;
+        text-transform: uppercase;
+    }
+    span{
+        display: inline-block;
+        height: 13px;
+        margin: 0 9px;
+        border-left:1px solid #cfcfcf;
+    }
+}
+
 //clearfix 清除浮动
 .clearfix:after {
     content: ".";

@@ -91,8 +91,42 @@
         <span class="slide-next"><i class="iconfont icon-jiantou"></i></span>
 
     </div>
-
-
+    <!---幻灯片后-->
+    <div class="container">
+        <div class="main-column">
+            <h4>朗朗口腔</h4>
+            <p>
+                呵护牙齿健康 创造美好未来
+                <span></span>
+                care for teeth to creat a batter future
+            </p>
+        </div>
+        
+        <div class="list-info">
+            <div class="loading-wait">
+                加载中
+                <div class="loading-icon"><li class="iconfont icon-jiazai"></li></div> 
+            </div>
+            <ul class="clearfix">
+                <figure>
+                    <img src="./images/mainimg01.jpg" alt="郎朗口腔">
+                    <figcaption>郎朗口腔</figcaption>
+                    <p>诊所内设有典雅舒适、风格各异的独立诊疗室，如奇趣可爱的儿童诊室、适应女性需求的Hello Kitty..</p>
+                </figure>
+                <figure>
+                    <img src="./images/mainimg01.jpg" alt="郎朗口腔">
+                    <figcaption>郎朗口腔</figcaption>
+                    <p>诊所内设有典雅舒适、风格各异的独立诊疗室，如奇趣可爱的儿童诊室、适应女性需求的Hello Kitty..</p>
+                </figure>
+                <figure>
+                    <img src="./images/mainimg01.jpg" alt="郎朗口腔">
+                    <figcaption>郎朗口腔</figcaption>
+                    <p>诊所内设有典雅舒适、风格各异的独立诊疗室，如奇趣可爱的儿童诊室、适应女性需求的Hello Kitty..</p>
+                </figure>
+            </ul>
+            <a href="" class="more-link">查看更多</a>
+        </div>
+    </div>
     <!--脚部-->
     <footer>
         <div class="container">

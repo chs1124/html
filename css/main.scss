@@ -50,3 +50,65 @@
 }
 .slide-prev{left: 20px;}
 .slide-next{right: 20px;}
+
+//图文列表
+.list-info{
+    position: relative;
+    padding: 0 45px;
+    img{
+        width: 100%;
+    }
+    figure{
+        float: left;
+        width: 33.33333%;
+        padding:0 25px 0;
+        @include webkit(box-sizing,border-box);
+    }
+    figcaption{
+        padding: 24px 0 21px;
+        font-size: 18px;
+        border-bottom: 1px solid #d9d9d9;
+    }
+    p{
+        display:inline-block;
+        padding-top: 10px;
+        line-height:23px;
+    }
+}
+//加载提示
+@keyframes loading{
+    from{transform:rotate(0deg)}
+    to{transform:rotate(360deg)}
+}
+.loading-wait{
+    text-align: center;
+    color: #c4c3c3;
+    background-color: #ece9e9;
+    padding: 15px 0;
+    font-weight: normal;
+    .loading-icon{
+        margin-top: 15px;
+        @include webkit(transform,rotate(0deg));
+        animation:loading 1s  infinite;
+    }
+}
+ .more-link{
+     
+     display: block;
+     color: #a7a7a7;
+     width: 110px;
+     height: 37px;
+     border: 1px solid #e8e8e8;
+     line-height: 37px;
+     text-align: center;
+     border-radius: 36px;
+     margin: auto;
+     margin-top: 54px;
+     margin-bottom: 90px;
+     @include webkit(transition, all 0.3s ease 0s);
+     &:hover{
+         background-color: $color-main;
+         color: #fff;
+         border:1px solid $color-main ;
+     }
+ }
