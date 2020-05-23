@@ -126,19 +126,25 @@
 
 
  .main-welfare-wrap{
-     margin-bottom: 90px;}
-      .main-row{
-         float: left;
-          width:33.33333% ;
-          .main-content-big{
-              height: 380px;
+     display: flex;
+     flex: 1;
+     margin-bottom: 90px;
+     height: 570px;
+    
 
-          }
-          .main-content-samll{
-              height: 190px;
-          }
-     }
- 
+    .main-row-flex{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        .main-flex-big{
+            flex: 2;
+        }
+        .main-flex-small{
+            flex: 1;
+        }
+        img{display: block;}
+    }
+     
  
  .main-content-text{
     padding-top:50px;
@@ -169,3 +175,4 @@
     }
  }
     
+}

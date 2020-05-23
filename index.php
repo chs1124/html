@@ -129,43 +129,41 @@
             </p>
         </div>
         </header>
-        <div class="main-welfare-wrap clearfix">
-        <div class="main-row">
-                <div class="main-content-big">
-                    <img src="images/mainimg02.jpg" alt="爱老">
-                </div>
-                <div class="main-content-samll">
-              
-                    <div class="main-content-text " style="padding-top: 40px">
+        <div class="main-welfare-wrap">
+            <!--第一项-->
+        
+            <div class="main-row-flex" style="background-color: #eae9e4">
+                <div class="main-flex-big"><img src="images/mainimg02.jpg" alt=""></div>
+                <div class="main-flex-small"><div class="main-content-text " style="padding-top: 40px">
                         <h4>爱能养老院活动</h4>
                         <time>2016-07-09</time>
                         <li></li>
                        
-                        <a href="" class="common-more margin-top-25">查看更多<img src="images/more01.jpg" alt=""></a>
+                        <a href="" class="common-more margin-top-25">查看更多<i class="iconfont icon-jiantou1"></i></a>
               
-                    </div>
-                </div>
+                    </div></div>
             </div>
-            <div class="main-row">
-                <div class="main-content-big">
-                    <div class="main-content-text">
+            
+            <!--第一项-->
+              <!--第er项-->
+   
+            <div class="main-row-flex" style="background-color: #eae9e4">
+                <div class="main-flex-big"><div class="main-content-text">
                         <h4>美吉姆早教义诊活动</h4>
                         <time>2016-07-09</time>
                         <li></li>
                         <p>在“牙齿健康从娃娃抓起”大型美吉姆公益义诊活动现场，参与活动的朗朗口腔辽宁分公司儿童口腔专家王阳有着丰富的临床治疗经验，包括儿童龋病、儿童口腔外科、儿童错颌畸形早期矫治等，囊括了儿童口腔健康的各个方面。王医生现场对孩子们进行了细致的口腔检查</p>
                         <a href="" class="common-more">查看更多<img src="images/more01.jpg" alt=""></a>
-                    </div>
-                </div>
-                <div class="main-content-samll">
-                    <img src="images/mainimg03.jpg" alt="义教">
-                </div>
+                    </div></div>
+                <div class="main-flex-small"><img src="images/mainimg03.jpg" alt="义教"></div>
             </div>
-            <div class="main-row">
-                 <div class="main-content-samll">
-                    <img src="images/mainimg04.jpg" alt="捐赠">
-                </div>
-                <div class="main-content-big">
-                <div class="main-content-text">
+     
+            <!--第er项-->
+            <!--第san项-->
+       
+            <div class="main-row-flex" style="background-color: #eae9e4">
+                <div class="main-flex-big">
+                    <div class="main-content-text">
                         <h4>商业城公益捐赠活动</h4>
                         <time>2016-07-09</time>
                         <li></li>
@@ -173,7 +171,10 @@
                         <a href="" class="common-more">查看更多<img src="images/more01.jpg" alt=""></a>
                     </div>
                 </div>
-               
+                <div class="main-flex-small"> <img src="images/mainimg04.jpg" alt="捐赠"></div>
+            </div>
+          
+            <!--第san项-->
             </div>
         </div>
         </section>
