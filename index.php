@@ -93,7 +93,8 @@
     </div>
     <!---幻灯片后-->
     <div class="container">
-        <div class="main-column">
+    <!--朗朗口腔start-->
+        <div class="common-column padding-top-90 padding-bottom-70">
             <h4>朗朗口腔</h4>
             <p>
                 呵护牙齿健康 创造美好未来
@@ -114,6 +115,70 @@
         </div>
             <a href="" class="more-link">查看更多</a>
         </div>
+        <!--朗朗口腔end-->
+
+        <!--朗朗公益start-->
+        <section class="main-welfare">
+        <header>
+        <div class="common-column padding-top-50 padding-bottom-50">
+            <h4>朗朗公益</h4>
+            <p>
+                呵护牙齿健康 创造美好未来
+                <span></span>
+                care for teeth to creat a batter future
+            </p>
+        </div>
+        </header>
+        <div class="main-welfare-wrap clearfix">
+        <div class="main-row">
+                <div class="main-content-big">
+                    <img src="images/mainimg02.jpg" alt="爱老">
+                </div>
+                <div class="main-content-samll">
+              
+                    <div class="main-content-text " style="padding-top: 40px">
+                        <h4>爱能养老院活动</h4>
+                        <time>2016-07-09</time>
+                        <li></li>
+                       
+                        <a href="" class="common-more margin-top-25">查看更多<img src="images/more01.jpg" alt=""></a>
+              
+                    </div>
+                </div>
+            </div>
+            <div class="main-row">
+                <div class="main-content-big">
+                    <div class="main-content-text">
+                        <h4>美吉姆早教义诊活动</h4>
+                        <time>2016-07-09</time>
+                        <li></li>
+                        <p>在“牙齿健康从娃娃抓起”大型美吉姆公益义诊活动现场，参与活动的朗朗口腔辽宁分公司儿童口腔专家王阳有着丰富的临床治疗经验，包括儿童龋病、儿童口腔外科、儿童错颌畸形早期矫治等，囊括了儿童口腔健康的各个方面。王医生现场对孩子们进行了细致的口腔检查</p>
+                        <a href="" class="common-more">查看更多<img src="images/more01.jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="main-content-samll">
+                    <img src="images/mainimg03.jpg" alt="义教">
+                </div>
+            </div>
+            <div class="main-row">
+                 <div class="main-content-samll">
+                    <img src="images/mainimg04.jpg" alt="捐赠">
+                </div>
+                <div class="main-content-big">
+                <div class="main-content-text">
+                        <h4>商业城公益捐赠活动</h4>
+                        <time>2016-07-09</time>
+                        <li></li>
+                        <p>朗朗口腔辽宁分公司于2016年9月17日在沈阳核心商圈中街商业城举办公益助残捐赠活动，本次共计为辽宁省残疾人福利基金会捐助善款184500元，朗朗口腔辽宁分公司CEO张显威、总经理杜忠华、原省委宣传部副部长葛本亮、辽宁省残联秘书长胡雅菊、商业城总经理刘丽</p>
+                        <a href="" class="common-more">查看更多<img src="images/more01.jpg" alt=""></a>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+        </section>
+        <!--朗朗公益end-->
+
     </div>
     <!--脚部-->
     <footer>

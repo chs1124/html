@@ -112,3 +112,60 @@
          border:1px solid $color-main ;
      }
  }
+
+ /*
+ 朗朗公益
+ */
+ .main-welfare{
+     header{
+         background-color: #efefef;
+
+     }
+ }
+
+
+
+ .main-welfare-wrap{
+     margin-bottom: 90px;}
+      .main-row{
+         float: left;
+          width:33.33333% ;
+          .main-content-big{
+              height: 380px;
+
+          }
+          .main-content-samll{
+              height: 190px;
+          }
+     }
+ 
+ 
+ .main-content-text{
+    padding-top:50px;
+    padding-left: 41px;
+    padding-right: 48px;
+    h4{
+        font-size: 24px;
+        
+    }
+    time{
+        display: block;
+        opacity: .5;
+        filter: alpha(opacity=50);
+       padding-top: 16px;
+       padding-bottom: 25px;
+    }
+    li{
+        border: 1px solid #cccccc;
+        width: 38px;
+        
+    }
+    p{
+        padding-top:34px ;
+        font-size: 12px;
+        line-height: 24px;
+        color: #585858;
+        margin-bottom: 15px;
+    }
+ }
+    
